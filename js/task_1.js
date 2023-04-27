@@ -1,4 +1,5 @@
 x = prompt ('введити число')
+x = +x
 if (isNaN(x)){
     console.log('Упс, кажется, вы ошиблись')
 } else if (x % 2 === 0){
